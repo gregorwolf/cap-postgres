@@ -23,5 +23,10 @@
   },
   "main": "lib/index.js",
   "name": "cds-postgres",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "devDependencies": {
+    "@sap/cds-sqlite": "^1.18.1",
+    "pg": "^7.12.1",
+    "sqlite3": "^4.1.0"
+  }
 }
