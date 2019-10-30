@@ -1,0 +1,17 @@
+{
+  "name": "cds-postgres",
+  "version": "0.0.1",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "@sap/cds-sql": {
+      "version": "1.18.1",
+      "requires": {
+        "uuid": "3.3.2"
+      }
+    },
+    "uuid": {
+      "version": "3.3.2"
+    }
+  }
+}

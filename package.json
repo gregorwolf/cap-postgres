@@ -1,0 +1,27 @@
+{
+  "bundleDependencies": false,
+  "dependencies": {
+    "@sap/cds-sql": "1.18.1"
+  },
+  "deprecated": false,
+  "description": "Driver package for access to postgres database, including setting up the client, configuring all the necessary options to initiate the connection and handling database specifics so that they can be processed on our end.",
+  "engines": {
+    "node": ">= 8.9.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "license": "TBD",
+  "lint-staged": {
+    "{lib,test}/**/*.js": [
+      "prettier-standard",
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "main": "lib/index.js",
+  "name": "cds-postgres",
+  "version": "0.0.1"
+}
