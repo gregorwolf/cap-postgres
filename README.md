@@ -1,20 +1,20 @@
-# cds-postgres #
+# cds-postgres
 
-Driver package for access to postgres database, including setting up the client, configuring all the necessary options to initiate the connection and handling database specifics so that they can be processed on our end.
+This project contained a prototype for a PostgreSQL driver for the [SAP Cloud Application Programming Model (CAP)](https://cap.cloud.sap/docs/) Node.JS version 3. With the new APIs provided in CAP version 4 a new project that is already available in the NPM repository was started at [cds-pg](https://github.com/sapmentors/cds-pg). Please contribute there.
 
-## Overview ## 
+## Overview 
 TBD
 
-## Prerequisites ## 
+## Prerequisites
 * @sap/cds-sql
 
-## Installation ## 
+## Installation
 ~~~~
 npm install
 ~~~~
 
-## Usage/Configuration ## 
+## Usage/Configuration
 TBD
 
-## Reference ##
+## Reference
 TBD
